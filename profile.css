@@ -1,0 +1,238 @@
+body
+{
+color:#ccc;
+background: rgba(66,66,66,5.0);
+}
+h1
+{
+color:#DAA520;
+}
+.mainbody
+{
+	float:right;
+	height:100%;
+	margin-top:6%;
+	margin-bottom:3%;
+	bottom:5%;
+	width:97%;
+	color:#333;
+	background: url("images/7.jpg") fixed 0px 0px;
+	padding:1.5%;
+}
+.logincontent{
+background: rgba(30,20,20,0.50);
+color:fff;
+float:left;
+width:15%;
+height:100%;
+}
+.regcontent{
+background: rgba(20,20,30,0.50);
+color:fff;
+float:right;
+width:80%;
+height:100%;
+}
+.hbar
+{
+background: rgba(50,60,50,0.75);
+width:5%;
+height:100%;
+float:left;
+}
+
+.formstyle
+{
+width:90%;
+height:45px;
+padding-left:50px;
+padding-right:50px;
+font-size:15px;
+border-radius:25px;
+}
+#group
+{
+width:90%;
+height:45px;
+padding-left:50px;
+padding-right:50px;
+font-size:15px;
+border-radius:25px;
+}
+#submitbtn
+{
+width:20%;
+height:45px;
+font-size:20px;
+border-radius:50px;
+color:#DAA520;
+}
+#addnewrecord
+{
+width:25%;height:45px;font-size:20px;color:#fff;background:#DAA520;border-radius:50px;
+}
+#addnewrecord:hover
+{
+width:30%;height:45px;font-size:20px;color:#DAA520;background:transparent;border-radius:50px;
+}
+#submitbtn:hover
+{
+font-size:28px;
+border-radius:50px;
+background:#DAA520;
+color:#FFF;
+}
+input#name {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#uname {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#idproof {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#pass {
+background: #fff url('images/pass.png') 5px 4px no-repeat;
+}
+#group{
+background: #fff url('images/sex.png') 5px 4px no-repeat;
+}
+input#email {
+background: #fff url('images/email.png') 5px 4px no-repeat;
+}
+input#f_email {
+background: #fff url('images/email.png') 5px 4px no-repeat;
+}
+#address {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#mobile {
+background: #fff url('images/phone.png') 5px 4px no-repeat;
+}
+#dob {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+#reason {
+background: #fff url('images/speech.png') 5px 4px no-repeat;
+}
+#cpass {
+background: #fff url('images/pass.png') 5px 4px no-repeat;
+}
+#npass {
+background: #fff url('images/pass.png') 5px 4px no-repeat;
+}
+#cfpass {
+background: #fff url('images/pass.png') 5px 4px no-repeat;
+}
+#blood {
+background: #fff url('images/blood.png') 5px 4px no-repeat;
+}
+#dna {
+background: #fff url('images/dna.png') 5px 4px no-repeat;
+}
+#cjail {
+background: #fff url('images/rainbow.gif') 5px 4px no-repeat;
+}
+#njail {
+background: #fff url('images/rainbow.gif') 5px 4px no-repeat;
+}
+#search {
+background: #fff url('images/loading.gif') 5px 4px no-repeat;
+}
+#criteria{
+background: #fff url('images/loading.gif') 5px 4px no-repeat;
+}
+input#jailID {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#jailName {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#jailLoc {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#jailCity {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#jailState {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#jailPin {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#SupID {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#staffID {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#staffName {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#staffLoc {
+background: #fff url('images/website.png') 5px 4px no-repeat;
+}
+input#staffMobile {
+background: #fff url('images/phone.png') 5px 4px no-repeat;
+}
+input#staffEmail {
+background: #fff url('images/email.png') 5px 4px no-repeat;
+}
+input#staffPost {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#staffSalary {
+background: #fff url('images/salary.png') 5px 4px no-repeat;
+}
+input#Code {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#dName {
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+input#dff{
+background: #fff url('images/user.png') 5px 4px no-repeat;
+}
+
+
+
+
+
+
+
+#menu {
+	width: 100%;
+	margin: 0px;
+}
+	
+#menu li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}	
+	
+#menu li a:link, #menu li a:visited {
+	color: #5E7830;
+	display: block;
+	background: url(menu1.gif);
+	padding: 8px 0 0 30px;
+}
+	
+#menu li a:hover {
+	color: #26370A;
+	background: url(menu1.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+	
+#menu li a:active {
+	color: #26370A;
+	background: url(menu1.gif) 0 -64px;
+	padding: 8px 0 0 10px;
+}
+#menu ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
